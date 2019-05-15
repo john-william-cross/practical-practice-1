@@ -10,9 +10,15 @@ public class Runner {
 
         FileWriter fileWriter = new FileWriter("results.txt");
         PrintWriter printWriter = new PrintWriter(fileWriter);
+
+        ListImplementation implementation2 = new ListImplementation();
+        implementation2.inputIntegers();
+
+
         ListImplementation implementation = new ListImplementation();
+
         String result = implementation.addTen();
-        implementation.addTen();
+
         printWriter.println(result);
         printWriter.close();
 
