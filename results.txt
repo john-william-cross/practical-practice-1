@@ -1,1 +1,5 @@
-add 10: [11, 12, 13, 14, 15]
+Number was: 11
+Number was: 12
+Number was: 13
+Number was: 14
+Number was: 16
